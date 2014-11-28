@@ -24,7 +24,7 @@ while (have_posts()) : the_post(); ?>
 				<li><a href="#" data-title="quem-somos" class="ativo-sobre">Quem somos</a></li>
 				<li><a href="#" data-title="parques">Parques industriais</a></li>
 				<li><a href="#" data-title="representantes">Representantes</a></li>
-				<li><a href="#" data-title="distribuicao">Distribuição</a></li>
+				<!-- <li><a href="#" data-title="distribuicao">Distribuição</a></li> -->
 			</ul>
 		</header>
 

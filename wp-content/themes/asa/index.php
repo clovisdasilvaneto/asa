@@ -46,7 +46,7 @@
 			</header></a>
 
 				<p><?php echo $subcategoria->category_description; ?></p>
-				<a href="<?php echo $subcategory_link ?>" class="setas">Conheça as marcas</a>
+				<a href="<?php echo $subcategory_link ?>?id=<?php echo $subcategory_id; ?>" class="setas">Conheça as marcas</a>
 
 				<div>
 					<?php 
@@ -191,10 +191,10 @@
 
 	<aside class="seven columns redes-sociais-content" id="youtube-content">
 		<header>
-			<h6>/fazpartedasuavida</h6>
+			<a href="https://www.youtube.com/user/fazpartedasuavida" target="_blank"><h6>/fazpartedasuavida</h6></a>
 
 			<figure>
-				<iframe width="365" height="184" src="//www.youtube.com/embed/iLmDQtJnpZI" frameborder="0" allowfullscreen></iframe>
+				<iframe width="365" height="184" src="//www.youtube.com/embed/vsKy5UGF0OY" frameborder="0" allowfullscreen></iframe>
 			</figure>
 		</header>
 	</aside>

@@ -231,6 +231,7 @@
 
 	#marcas-cat article.higiene:before { left:460px;}
 	#marcas-cat article.limpeza:before {left: 770px;}
+	.download-produto{font-size: 19px; font-weight: 600; text-decoration: underline;}
 
 	#receitas {
 		h2 {display: block;width: 23.8%;margin: 60px auto 40px;}
@@ -398,6 +399,7 @@ padding-left: 40px;}
 		}
 
 		p,span,li {color: #0b4294; font-size: 19px; font-family: "GothamBook"}
+
 	}
 
 	/**************************************** FOOTER ****************************************/
@@ -433,7 +435,7 @@ height: 31px;border:none; cursor: pointer;}
 
 	#produtos-box {margin-top: 50px;
 		article.aberto {background: #f4f7f9;
-			footer {overflow: visible; height: 400px; padding-top: 100px;}
+			footer {overflow: visible; height: 400px; padding-top: 30px;}
 			div {opacity: 1;}
 		}
 
@@ -561,7 +563,12 @@ height: 31px;border:none; cursor: pointer;}
 		}
 
 		p {font-size: 14px; color: #0b4294; margin-top: 5px;}
-		figure {overflow: hidden; height: 178px;}
+		// figure {overflow: hidden; height: 178px;}
+		figure {
+			max-width: 252px; max-height: 178px; text-align: center;
+			img{max-height: 178px;}
+		}
+
 	}
 
 	#news h4,#news h3,#explorar {
@@ -784,9 +791,9 @@ font-size: 17px;
 	}
 }
 
-	#sobre-title {padding-top: 60px;}
+	#sobre-title {padding-top: 5px;}
 	#lista-servicos {
-		li{max-width: 151px; width:100%; min-height: 100px; margin-left: 66px; float: left; text-align: center;}
+		li{max-width: 151px; width:100%; min-height: 100px; margin-left: 120px; float: left; text-align: center;}
 		a {font-size: 18px;color: #3c4283; position: relative;}
 		a:before, a:after {width: 66px; height: 66px;}
 		a:before { content:""; display: block;margin: 0 auto 14px; background: url(../img/sobre-off.gif) no-repeat;}
@@ -812,11 +819,11 @@ font-size: 17px;
 			color: #0b4294;
 		}
 		h4 {
-			font-size: 30px;
+			font-size: 26px;
 		}
-		p{font-size: 15px;line-height: 21px;}
+		p{font-size: 15px !important; line-height: 21px;}
 		
-		h5{font-size: 20px; margin-top: 15px;}
+		h5{font-size: 18px; margin-top: 15px;}
 	}
 	
 	.header-scroll {background: #fff!important;box-shadow:0 2px 6px #777;  

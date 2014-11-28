@@ -12,7 +12,7 @@
 			<br>
 			<p>Escolha a linha de produtos abaixo e navegue.
 				<br>
-				Para informações detalhadas (embalagem, peso, etc) baixe nosso catálogo em PDF.
+				Para informações detalhadas (embalagem, peso, etc) <a class="download-produto" href="http://www.levelsystem.com.br/asa/wp-content/themes/asa/img/download/Catalogo-Produtos-ASA-21x29,7cm.pdf">baixe nosso catálogo em PDF.</a>
 			</p>
 		</article>
 	<div id="marcas">
@@ -34,10 +34,11 @@
 
 		?>
 			<article>
-				<header>
+				<a href="<?php echo $category_link; ?>?id=<?php echo $category_id; ?>"><header>
 					<figure></figure>
-					<a href="<?php echo $category_link; ?>?id=<?php echo $category_id; ?>"><h3><?php echo $subcategoria->cat_name; ?></h3></a>
+					<h3><?php echo $subcategoria->cat_name; ?></h3>
 				</header>
+			</a>
 
 			</article>
 			
