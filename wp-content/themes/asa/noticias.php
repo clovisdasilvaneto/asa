@@ -24,7 +24,7 @@ query_posts('cat=2'); ?>
 							<a href="<?php the_permalink() ?>"><img src="<?php echo $url ?>" alt=""></a>
 						</figure>
 						
-						<h4><?php the_title() ?></h4>
+						<a href="<?php the_permalink() ?>"><h4><?php the_title() ?></h4></a>
 						<p><?php the_excerpt() ?></p>	
 						<a href="<?php the_permalink() ?>" class="mais">leia mais</a>
 					</div>

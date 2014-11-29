@@ -182,7 +182,7 @@
 						<h2><?php the_title(); ?></h2>
 						<p class="date"><?php the_time('j \d\e F \d\e Y'); ?></p>
 
-						<p class="fonte">Fonte: João Alberto</p>
+						<!-- <p class="fonte">Fonte: João Alberto</p> -->
 					</header>
 
 					<article>

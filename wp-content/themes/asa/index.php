@@ -26,7 +26,7 @@
 <section class="container" id="marcas">
 	<div class="sixteen columns">
 		<header>
-			<h2>As marcas preferidas</h2>
+			<a href="http://www.levelsystem.com.br/asa/category/marcas/alimentacao/?id=5" title="Marcas Preferidas ASA"><h2>As marcas preferidas</h2></a>
 		</header>
 
 	<?php
@@ -80,7 +80,7 @@
 
 <section id="receitas">
 	<header>
-		<h2>ASA PRA VOCÊ</h2>
+		<a href="http://www.levelsystem.com.br/asa/category/receitas/?category-slug=aves"><h2>ASA PRA VOCÊ</h2></a>
 	</header>
 
 	<div>
@@ -135,7 +135,7 @@
 
 	<article id="asa-news" class="six columns">
 		<header>
-			<h2>ASA NEWS</h2>
+			<a href="http://www.levelsystem.com.br/asa/noticias/"><h2>ASA NEWS</h2></a>
 		</header>
 		<?php
 			$wp_query = new WP_Query(); 

@@ -87,6 +87,16 @@ function create_taxonomy_slideshow_category() {
     );
 }
 
+/* Agora o excerto tem 30 palavras máx. */
+function new_excerpt_more( $more ) {
+	return '...  <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('', 'tutsup') . '</a>  ';
+}
+add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+function custom_excerpt_length( $length ) {
+   return 10;
+}
+add_filter( "excerpt_length", "custom_excerpt_length", 999 );
 
 /** Pagination */
 function pagination_funtion() {
