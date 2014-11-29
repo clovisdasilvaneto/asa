@@ -435,7 +435,7 @@ height: 31px;border:none; cursor: pointer;}
 
 	#produtos-box {margin-top: 50px;
 		article.aberto {background: #f4f7f9;
-			footer {overflow: visible; height: 400px; padding-top: 30px;}
+			footer {overflow: visible; height: 300px; padding-top: 30px;}
 			div {opacity: 1;}
 		}
 
@@ -456,7 +456,7 @@ height: 31px;border:none; cursor: pointer;}
 
 		.container {
 			margin-top: 10px;
-			padding-bottom: 40px;
+			padding-bottom: 10px;
 			padding-top: 1px;
 		}
 		
@@ -480,7 +480,7 @@ height: 31px;border:none; cursor: pointer;}
 			img {max-width:191px; }
 			.bx-prev, .bx-next {
 				position: absolute;
-				top: 117px;
+				top: 56px;
 				text-indent: -9999px;
 				height: 78px;
 				width: 36px;
@@ -737,7 +737,7 @@ text-align: center;
 			margin-left: 57px;
 		}
 
-		#receitas-interna {background-image:url(../img/image-contato.jpg)!important;background: url(../img/bg_receita.png) no-repeat center 30px;padding-top: 100px;height: 255px;width: 100%;background-size: 100%;background-attachment: fixed; }
+		#receitas-interna {background-image:url(../img/image-contato.jpg)!important;background: url(../img/bg_receita.png) no-repeat center 0px;padding-top: 100px;height: 255px;width: 100%;background-size: 100%;background-attachment: fixed; }
 	}
 	#opcoes-contato {
 		border-top: solid 1px #0b4294;
